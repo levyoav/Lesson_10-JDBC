@@ -1,4 +1,4 @@
-package jbt.com.b.createDbAndConnect;
+package createDbAndConnectExample;
 
 import java.sql.Connection;
 import java.sql.SQLException;

@@ -1,4 +1,4 @@
-package jbt.com.a.driverLoadingExample;
+package driverLoadingExample;
 
 public class DriverLoading {
 
