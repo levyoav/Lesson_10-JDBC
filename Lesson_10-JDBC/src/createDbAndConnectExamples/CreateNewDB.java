@@ -1,4 +1,4 @@
-package createDbAndConnectExample;
+package createDbAndConnectExamples;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -38,7 +38,9 @@ public class CreateNewDB {
 			//exception was thrown or not.
 			try {
 				if (con != null) {
-					//Closing the connection. Throws 'SQLException'.
+					//Closing the connection. Throws 'SQLException'. Not calling
+					//close() method may cause failure of updates that were sent
+					//to the DB and got stuck in the buffers managed by the driver.
 					con.close();
 					System.out.println("disconnected");
 				}

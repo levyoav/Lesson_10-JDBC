@@ -1,4 +1,4 @@
-package createDbAndConnectExample;
+package createDbAndConnectExamples;
 
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;

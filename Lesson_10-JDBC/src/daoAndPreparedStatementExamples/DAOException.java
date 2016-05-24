@@ -1,10 +1,8 @@
-package jbt.com.d.dao;
+package daoAndPreparedStatementExamples;
 
+//Creating a checked exception 'DAOException' for DAO use.
 public class DAOException extends Exception {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	public DAOException() {

@@ -1,8 +1,8 @@
-package jbt.com.d.dao;
+package daoAndPreparedStatementExamples;
 
 import classes.Employee;
 
-// this implementation works with files (IO)
+//This implementation of EmployeeDAO works with files (IO).
 public class EmployeFileDAO implements EmployeeDAO {
 
 	@Override

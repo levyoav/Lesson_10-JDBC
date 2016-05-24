@@ -28,7 +28,7 @@ public class Targil2ReadAll {
 				emp.setLast(rs.getString(3));
 
 				java.sql.Date date = rs.getDate(4);
-				emp.setBirthdate(date);
+				emp.setBirthDate(date);
 
 				// convert the department string to an enum
 				Department department = Department.valueOf(rs.getString(5));

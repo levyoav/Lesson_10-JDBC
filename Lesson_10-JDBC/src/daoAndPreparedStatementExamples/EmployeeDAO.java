@@ -1,7 +1,8 @@
-package jbt.com.d.dao;
+package daoAndPreparedStatementExamples;
 
 import classes.Employee;
 
+//Definition of the DAO (Data Access Object) interface.
 public interface EmployeeDAO {
 
 	/**
@@ -15,6 +16,13 @@ public interface EmployeeDAO {
 	 * */
 	void create(Object obj, Employee emp) throws DAOException;
 
+	/**
+	 * 
+	 * @param obj
+	 * @param emp
+	 * @return
+	 * @throws DAOException
+	 */
 	Employee read(Object obj, Employee emp) throws DAOException;
 
 	void update(Object obj, Employee emp) throws DAOException;

@@ -7,20 +7,20 @@ public class Employee {
 	private int id;
 	private String first;
 	private String last;
-	private Date birthdate;
+	private Date birthDate;
 	private Department department;
 
 	public Employee() {
 		super();
 	}
 
-	public Employee(int id, String first, String last, Date birthdate,
+	public Employee(int id, String first, String last, Date birthDate,
 			Department department) {
 		super();
 		this.id = id;
 		this.first = first;
 		this.last = last;
-		this.birthdate = birthdate;
+		this.birthDate = birthDate;
 		this.department = department;
 	}
 
@@ -48,14 +48,18 @@ public class Employee {
 		this.last = last;
 	}
 
-	public Date getBirthdate() {
-		return birthdate;
+	public Date getBirthDate() {
+		return birthDate;
 	}
 
-	public void setBirthdate(Date birthdate) {
-		this.birthdate = birthdate;
+	public void setBirthDate(Date birthDate) {
+		this.birthDate = birthDate;
 	}
 
+	/**
+	 * 
+	 * @return Department
+	 */
 	public Department getDepartment() {
 		return department;
 	}
@@ -89,7 +93,7 @@ public class Employee {
 	@Override
 	public String toString() {
 		return "Employee [id=" + id + ", first=" + first + ", last=" + last
-				+ ", birthdate=" + birthdate + ", department=" + department
+				+ ", birthDate=" + birthDate + ", department=" + department
 				+ "]";
 	}
 

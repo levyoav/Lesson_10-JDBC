@@ -1,11 +1,11 @@
-package createDbAndConnectExample;
+package createDbAndConnectExamples;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 
 import org.apache.derby.jdbc.ClientDataSource;
 
-public class CoonectUsingDataSource {
+public class ConnectUsingDataSource {
 
 	public static void main(String[] args) {
 

@@ -32,7 +32,7 @@ public class Targil1Insert {
 			pstmt.setString(2, emp.getFirst());
 			pstmt.setString(3, emp.getLast());
 			// convert the java.util.Date to java.sql.Date
-			pstmt.setDate(4, new java.sql.Date(emp.getBirthdate().getTime()));
+			pstmt.setDate(4, new java.sql.Date(emp.getBirthDate().getTime()));
 			pstmt.setString(5, emp.getDepartment().toString());
 			
 			pstmt.executeUpdate();
